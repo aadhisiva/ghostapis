@@ -1,0 +1,49 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadhisiva/MCJ-IT.git"
+  },
+  "author": "aadhisivapanjagala@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadhisiva/MCJ-IT/issues"
+  },
+  "homepage": "https://github.com/aadhisiva/MCJ-IT#readme",
+  "dependencies": {
+    "Logger": "0.0.0",
+    "axios": "^0.22.0",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "jssoup": "0.0.15",
+    "mongodb": "^4.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1",
+    "typedi": "^0.10.0",
+    "typeorm": "^0.2.38",
+    "winston": "^3.3.3"
+  },
+  "env": {
+    "PORT": 8008
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
